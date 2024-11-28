@@ -23,13 +23,13 @@ tidy number she counted?
 
 This was listed as one of the "hard" type problems for the practice. 
 A bunch of different methods were listed as well. 
-I was not satisfied with any of these, so I applied a lot of the skills I have learned as a math major, and over the course of a week I came up with my own method to solve the problem.
+I was not satisfied with any of these, so I applied a lot of the skills I have learned as a math major. Over the course of a week I came up with my own method to solve the problem.
 Through lots of thought, I realized that a large amount of cases could be reduced to simpler ones by knowing which digit caused the number to become "un-tidy".
 
 For example --- 123457000 => 7000 or 1234567890 => 90 
 
-This works since there is a tidy number every 10^k numbers
-The only special case is when there are repeating digits right before the number becomes "un-tidy" EX 12345555500 or 12222221
+This works since there is a tidy number every 10^k numbers.
+The only special case is when there are repeating digits right before the number becomes "un-tidy" EX 12345555500 or 12222221,
 But this case can once again be reduced to the first digit where it started repeating EX 12345777773 => 12345700000 ( The proof of this will be more complex but still relies on the fact that there exists a tidy number every 10^k numbers).
 
 As of now, I have yet to formally prove my method (I probably will in the future in a LaTeX document) but it appears to work well. 
