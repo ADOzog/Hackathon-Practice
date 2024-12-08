@@ -34,6 +34,10 @@ But this case can once again be reduced to the first digit where it started repe
 
 As of now, I have yet to formally prove my method (I probably will in the future in a LaTeX document) but it appears to work well. 
 
+# Lego Minifigures (Lego.go)
+I currently have it solved with a non optimal approach and I will upload the full problem in the future.
+
+
 
 
 
